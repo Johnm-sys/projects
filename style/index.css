@@ -1,3 +1,28 @@
+*, *::after, *::before{
+    /* el margin y padding de todos los elementos quedan por defecto en cero, 
+    lo cual evita comportamiento indeseados sobretodo al hacer diseños */
+margin: 0;
+padding: 0;
+box-sizing: inherit;
+}
+
+html{
+/* El tamaño de la letra en todo el HTML queda por defecto en 10px, 
+lo que comvierte a 1 REM a 10px */
+font-size: 62.5%;
+}
+
+body{
+/* Familia por defecto de la pagina wev */
+font-family: 'Roboto', sans-serif;
+font-size: 1.4rem;
+}
+
+
+
+
+
+
 #tabla{
     border: solid 1px black;
 }
